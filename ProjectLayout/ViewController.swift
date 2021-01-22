@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     
-    
+    let alertService = AlertService()
+    let networkingService = NetworkingService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,14 +21,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func login() {
-        if email != nil {
-            var Emaill = email.text
-            var Passwordd = password.text}
+        guard
+            let emaill = email.text,
+            let passwordd = password.text
             else { return }
         
-        print("email bilgisi" , email)
-        print("Password bilgisi" , password)
     
+    
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if let mainAppVC = segue.destination as? ViewController, let user = sender as? User{
+            mainAppVC.userActivity = userActivity
+        }
     }
     
     @IBAction func register(_ sender: Any) {

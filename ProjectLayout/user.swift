@@ -8,7 +8,9 @@
 import Foundation
 
 struct User: Decodable{
-    let id: String
-    let username: String
-    let name : String
+    let name: String
+    let gsm: String
+    let email : String
+    let cender: String
+    let password: String
 }
