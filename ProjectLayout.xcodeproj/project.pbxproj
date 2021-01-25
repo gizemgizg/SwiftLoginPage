@@ -19,6 +19,7 @@
 		6C12A0AD25BAF4E000D7A591 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12A0AC25BAF4E000D7A591 /* AlertService.swift */; };
 		6C12A0B025BAF6D100D7A591 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12A0AF25BAF6D100D7A591 /* NetworkingService.swift */; };
 		6C12A0B425BAF71F00D7A591 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12A0B325BAF71F00D7A591 /* user.swift */; };
+		6C12A0BA25BE9EDE00D7A591 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C12A0B925BE9EDE00D7A591 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		6C12A0AC25BAF4E000D7A591 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
 		6C12A0AF25BAF6D100D7A591 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		6C12A0B325BAF71F00D7A591 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		6C12A0B925BE9EDE00D7A591 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				6C12A06125B9B1F600D7A591 /* AppDelegate.swift */,
 				6C12A06325B9B1F600D7A591 /* SceneDelegate.swift */,
 				6C12A06525B9B1F600D7A591 /* ViewController.swift */,
+				6C12A0B925BE9EDE00D7A591 /* RegisterViewController.swift */,
 				6C12A07725B9B9C500D7A591 /* logo.png */,
 				6C12A07D25B9C7E200D7A591 /* boo logo dark.svg */,
 				6C12A06725B9B1F600D7A591 /* Main.storyboard */,
@@ -160,6 +163,7 @@
 				6C12A06625B9B1F600D7A591 /* ViewController.swift in Sources */,
 				6C12A0B025BAF6D100D7A591 /* NetworkingService.swift in Sources */,
 				6C12A06225B9B1F600D7A591 /* AppDelegate.swift in Sources */,
+				6C12A0BA25BE9EDE00D7A591 /* RegisterViewController.swift in Sources */,
 				6C12A08325BAC29000D7A591 /* Register.swift in Sources */,
 				6C12A0B425BAF71F00D7A591 /* user.swift in Sources */,
 				6C12A06425B9B1F600D7A591 /* SceneDelegate.swift in Sources */,

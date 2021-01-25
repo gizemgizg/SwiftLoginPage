@@ -21,13 +21,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func login() {
-        guard
+        
+       /* guard
             let emaill = email.text,
             let passwordd = password.text
             else { return }
         
     
-    
+    */
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
